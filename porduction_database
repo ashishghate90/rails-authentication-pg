@@ -1,0 +1,4 @@
+folder: pg_demo
+database_name: pg_demo_authentication
+username: root
+password: root
