@@ -4,7 +4,7 @@ lock "~> 3.12.1"
 set :application, 'rails-authentication-pg'
 set :repo_url, 'git@github.com:ashishghate90/rails-authentication-pg.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/deploy/rails-authentication-pg'
+set :deploy_to, '/home/deploy/root' # here root is the folder name, we should make the folder name as project-name
 set :pty, true
 set :linked_files, %w{config/database.yml config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}

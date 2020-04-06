@@ -2,3 +2,10 @@ folder: pg_demo
 database_name: pg_demo_authentication
 username: root
 password: root
+
+
+folder: root/shared/config/database.yml
+database_name: pg_demo_prod
+username: root
+password: root
+
